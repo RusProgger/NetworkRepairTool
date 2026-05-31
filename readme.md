@@ -35,6 +35,25 @@ This tool simplifies the entire process into a single automated action, reducing
 
 ---
 
+## 🌍 Open Source & License
+
+### 🇬🇧 English
+
+This project is **open source** and distributed freely.
+
+The source code is fully available for study, modification, and improvement.  
+The author does not charge any money for this software and provides it as a free utility for educational and practical use.
+
+You are free to:
+- Use the program
+- Study the source code
+- Modify and improve it
+- Share it with others
+
+No warranty is provided. The software is distributed "as is".
+
+---
+
 ## 🇷🇺 Русский
 
 ### 📌 Что это за программа?
