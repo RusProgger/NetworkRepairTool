@@ -6,7 +6,9 @@
 
 Network Repair Tool is a Windows utility designed to automatically diagnose and restore network functionality when users experience internet connection problems, instability, or DNS/network configuration errors.
 
-Instead of manually troubleshooting the system through command-line tools and multiple steps, this program provides a unified automated solution that performs a full network reset and recovery process.
+### ⚠️ Administrator Rights Required
+The program must be run **as an administrator**.  
+Network reset and recovery operations require elevated privileges to modify system network components and configuration. Without administrator rights, the program cannot perform its functions correctly, and some operations will fail.
 
 ### ⚙️ What does it do?
 
@@ -39,7 +41,10 @@ This tool simplifies the entire process into a single automated action, reducing
 
 Network Repair Tool — это утилита для Windows, предназначенная для автоматической диагностики и восстановления работы сети при проблемах с интернет-соединением, нестабильной работой сети или ошибках сетевых настроек.
 
-Вместо ручного выполнения множества команд и действий, программа предоставляет единое автоматическое решение, которое выполняет полный сброс и восстановление сети.
+### ⚠️ Требуются права администратора
+Программа должна запускаться **от имени администратора**.  
+Для сброса сетевых компонентов и изменения системных сетевых настроек требуются повышенные права.  
+Без прав администратора некоторые операции не смогут выполниться, и утилита не сможет корректно восстановить сеть.
 
 ### ⚙️ Что делает программа?
 
@@ -72,7 +77,11 @@ Network Repair Tool — это утилита для Windows, предназна
 
 Network Repair Tool — це утиліта для Windows, призначена для автоматичної діагностики та відновлення роботи мережі при проблемах з інтернет-з'єднанням, нестабільною роботою мережі або помилках у мережевих налаштуваннях.
 
-Замість ручного виконання великої кількості команд і дій, програма надає єдине автоматичне рішення для повного скидання та відновлення мережі.
+### ⚠️ Права адміністратора
+
+Програму потрібно запускати **від імені адміністратора**.  
+Для скидання мережевих компонентів та зміни системних мережевих налаштувань потрібні підвищені права.  
+Без прав адміністратора деякі операції не зможуть виконатися, і утиліта не зможе коректно відновити мережу.
 
 ### ⚙️ Що робить програма?
 
