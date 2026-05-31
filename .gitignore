@@ -1,0 +1,3 @@
+# Build directory (CMake output)
+build/
+.vscode/
