@@ -37,7 +37,6 @@ This tool simplifies the entire process into a single automated action, reducing
 
 ## 🌍 Open Source & License
 
-### 🇬🇧 English
 
 This project is **open source** and distributed freely.
 
