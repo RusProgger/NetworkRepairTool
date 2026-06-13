@@ -1,6 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include "warningMessage.h"
+#include "colorHandle.h"
 
 bool isAdmin() {
     BOOL isAdmin = FALSE;
@@ -25,10 +26,14 @@ bool isAdmin() {
 
 bool warningMessage() {
     if (isAdmin()) {
-        std::cout << "Good: program is running as administrator\n";
+        colorHandle(10); // green
+        std::cout << "Ok: program is running as administrator\n";
+        colorHandle(7); // reset
         return true;
     } else {
+        colorHandle(12); // red
         std::cout << "Warning: program is not running as administrator\n";
+        colorHandle(7); // reset
         return false;
     }
 }
