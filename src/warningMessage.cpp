@@ -37,3 +37,12 @@ bool warningMessage() {
         return false;
     }
 }
+
+bool checkAdminOrExit() {
+    if (!warningMessage()) {
+        std::cout << "\nPress Enter to exit...";
+        std::cin.get();
+        return false;
+    }
+    return true;
+}
