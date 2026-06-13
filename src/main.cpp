@@ -3,16 +3,19 @@
 #include <chrono>
 #include <thread>
 
-#include "intro.h"
+// #include "intro.h"
 #include "warningMessage.h"
 #include "colorHandle.h"
+#include "messageInfo.h"
 
 
 int main() {
 
     // Author message
-    getIntro("NetWork Repair Tool", "01/06/2026", "1.00.1", "Ruslan Voronenko");
-    std::cout << std::endl;
+    // getIntro("NetWork Repair Tool", "01/06/2026", "1.00.1", "Ruslan Voronenko");
+
+    // Message info
+    messageInfo();
 
     // message running as administrator
     if (!warningMessage()) {
