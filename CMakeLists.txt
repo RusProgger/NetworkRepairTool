@@ -6,8 +6,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(NetworkRepairTool
     src/main.cpp
-    src/intro.cpp
+    # src/intro.cpp
     src/warningMessage.cpp
+    src/messageInfo.cpp
     src/colorHandle.cpp
 )
 
