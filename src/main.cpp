@@ -12,6 +12,7 @@ int main() {
 
     // Author message
     getIntro("NetWork Repair Tool", "01/06/2026", "1.00.1", "Ruslan Voronenko");
+    std::cout << std::endl;
 
     // message running as administrator
     if (!warningMessage()) {
