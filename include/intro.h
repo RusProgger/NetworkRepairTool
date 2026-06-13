@@ -2,8 +2,11 @@
 
 #pragma once
 
-void intro(
+#include <string>
+
+void getIntro(
     const std::string& name,
-    const std::string& author,
-    const std::string& version
+    const std::string& date,
+    const std::string& version, 
+    const std::string& author
 );
