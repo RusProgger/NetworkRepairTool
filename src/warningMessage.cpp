@@ -27,12 +27,12 @@ bool isAdmin() {
 bool warningMessage() {
     if (isAdmin()) {
         colorHandle(10); // green
-        std::cout << "Ok: program is running as administrator\n";
+        std::cout << "Ok: Program is running as administrator\n";
         colorHandle(7); // reset
         return true;
     } else {
         colorHandle(12); // red
-        std::cout << "Warning: program is not running as administrator\n";
+        std::cout << "Warning: Program is not running as administrator\n";
         colorHandle(7); // reset
         return false;
     }
