@@ -11,19 +11,18 @@
 
 int main() {
 
-    // Author message
-    // getIntro("NetWork Repair Tool", "01/06/2026", "1.00.1", "Ruslan Voronenko");
-
     // Message info
     messageInfo();
 
     // message running as administrator
-    if (!warningMessage()) {
-        std::cout << "\nPress Enter to exit...";
-        std::cin.get();
+        if (!checkAdminOrExit()) {
         return 1;
     } else {
-
+        std::cout << "\n\n";
+        // menu
+        std::cout << "========================================\n";
+        std::cout << "                 MENU                  \n";
+        std::cout << "========================================\n";
     }
 
 
