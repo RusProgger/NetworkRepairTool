@@ -22,7 +22,22 @@ int main() {
         // menu
         std::cout << "========================================\n";
         std::cout << "                 MENU                  \n";
-        std::cout << "========================================\n";
+        std::cout << "========================================\n\n";
+
+        std::this_thread::sleep_for(std::chrono::seconds(1));
+
+        colorHandle(12);
+        std::cout << "Warning! Resetting TCP/IP may temporarily disrupt your Internet connection.\nAre you sure you want to continue? ";
+
+
+        char value;
+
+        std::cin >> value;
+
+        if(value == 'n') {
+            std::cout << "EXIT...";
+            return 0;
+        }
     }
 
 
