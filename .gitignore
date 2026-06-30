@@ -1,3 +1,6 @@
 # Build directory (CMake output)
 build/
 .vscode/
+
+!release/
+!release/*.exe
