@@ -35,27 +35,28 @@ int main() {
 
             char choice;
 
+            std::cin >> choice;
+
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
+            if(choice == 'Y' || choice == 'y') {
+                std::cout << "continue...\n";
+                break;
+            }
+
+            if (choice == 'N' || choice == 'n') {
+                std::cout << "You exited the menu.\n";
+                break;
+            }
+
+            std::cout << "Invalid input! Please enter Y or N.\n\n";
         }
        
-
-        
-
-        if(value == 'n' || value == "N" || value == "н" || value == "Н") {
-            std::cout << "EXIT...";
-            std::cin.ignore();
-            std::cin.get();
-            return 1;
-        }
     }
 
 
-
-
-
     // std::cout << "\nProgram finished successfully.\n";
-    // std::cout << "Press Enter to exit...\n";
+    std::cout << "Press Enter to exit...\n";
 
     std::cin.ignore();
     std::cin.get();
