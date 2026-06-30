@@ -41,10 +41,21 @@ int main() {
 
             if(choice == 'Y' || choice == 'y') {
                 colorHandle(12);
-                std::cout << "WARNING! During the network reset process, it is recommended not to use the computer. Internet connection may be temporarily unavailable — this is normal!\n";
+                std::cout << "\n\nWARNING! During the network reset process, it is recommended not to use the computer.\nInternet connection may be temporarily unavailable - this is normal!\n\n";
                 std::this_thread::sleep_for(std::chrono::seconds(3));
-
                 colorHandle(7);
+
+                colorHandle(13);
+                std::cout << "\n\n";
+                std::cout << "========================================\n";
+                std::cout << "              PROCESSING                \n";
+                std::cout << "     Please wait, do not close app      \n";
+                std::cout << "========================================\n\n";
+                colorHandle(7);
+
+                // testing
+
+                
                 break;
             }
 
