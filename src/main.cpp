@@ -8,6 +8,7 @@
 #include "warningMessage.h"
 #include "colorHandle.h"
 #include "messageInfo.h"
+#include "system.h"
 
 
 int main() {
@@ -55,7 +56,51 @@ int main() {
 
                 // testing
 
+                // releasing ip address
+                std::cout << "Releasing IP address...";
+                std::this_thread::sleep_for(std::chrono::seconds(2));
+                releaseIp();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                // Flushing DNS cache
+                std::cout << "Flushing DNS cache...";
+                std::this_thread::sleep_for(std::chrono::seconds(3));
+                flushDns();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                // resetNetbios
+                std::cout << "Resetting NetBIOS cache...";
+                std::this_thread::sleep_for(std::chrono::seconds(5));
+                resetNetbios();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                // resetNetbiosReloaded
+                std::cout << "Reloading NetBIOS names...";;
+                std::this_thread::sleep_for(std::chrono::seconds(5));
+                resetNetbiosReloaded();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                //resetWinsock
+
+                std::cout << "Resetting Winsock catalog...";
+                std::this_thread::sleep_for(std::chrono::seconds(5));
+                resetWinsock();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                // resetTcpIp
+
                 
+
                 break;
             }
 
