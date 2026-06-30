@@ -13,3 +13,6 @@ add_executable(NetworkRepairTool
 )
 
 target_include_directories(NetworkRepairTool PRIVATE ${CMAKE_SOURCE_DIR}/include)
+set_target_properties(NetworkRepairTool PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/release"
+)
