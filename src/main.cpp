@@ -49,7 +49,7 @@ int main() {
                 break;
             }
 
-            std::cout << "Invalid input! Please enter Y or N.\n\n";
+            std::cout << "Invalid input! Please enter Y or N..\nContinue: ";
         }
        
     }
