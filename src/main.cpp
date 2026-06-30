@@ -40,7 +40,11 @@ int main() {
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
             if(choice == 'Y' || choice == 'y') {
-                std::cout << "continue...\n";
+                colorHandle(12);
+                std::cout << "WARNING! During the network reset process, it is recommended not to use the computer. Internet connection may be temporarily unavailable — this is normal!\n";
+                std::this_thread::sleep_for(std::chrono::seconds(3));
+
+                colorHandle(7);
                 break;
             }
 
