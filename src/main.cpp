@@ -2,6 +2,7 @@
 #include <windows.h>
 #include <chrono>
 #include <thread>
+#include <limits>
 
 // #include "intro.h"
 #include "warningMessage.h"
@@ -28,15 +29,24 @@ int main() {
 
         colorHandle(12);
         std::cout << "Warning! Resetting TCP/IP may temporarily disrupt your Internet connection.\nAre you sure you want to continue? ";
+        colorHandle(7);
 
+        while(true) {
 
-        char value;
+            char choice;
 
-        std::cin >> value;
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-        if(value == 'n') {
+        }
+       
+
+        
+
+        if(value == 'n' || value == "N" || value == "н" || value == "Н") {
             std::cout << "EXIT...";
-            return 0;
+            std::cin.ignore();
+            std::cin.get();
+            return 1;
         }
     }
 
