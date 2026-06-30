@@ -106,7 +106,7 @@ int main() {
 
                 // Clearing ARP cache
                 std::cout << "Clearing ARP cache...";
-                std::this_thread::sleep_for(std::chrono::seconds(5.5));
+                std::this_thread::sleep_for(std::chrono::seconds(5));
                 clearArpCache();
                 colorHandle(10);
                 std::cout << "OK\n";
@@ -138,7 +138,7 @@ int main() {
 
                 //showRouteTable
                 std::cout << "Clearing route table...";
-                std::this_thread::sleep_for(std::chrono::seconds(6.5));
+                std::this_thread::sleep_for(std::chrono::seconds(6));
                 showRouteTable();
                 colorHandle(10);
                 std::cout << "OK\n";
@@ -146,7 +146,7 @@ int main() {
 
                 //renewIp
                 std::cout << "Renewing IP address...";
-                std::this_thread::sleep_for(std::chrono::seconds(6.5));
+                std::this_thread::sleep_for(std::chrono::seconds(6));
                 renewIp();
                 colorHandle(10);
                 std::cout << "OK\n";
@@ -154,14 +154,14 @@ int main() {
 
                 //registerDns
                 std::cout << "Registering DNS...";
-                std::this_thread::sleep_for(std::chrono::seconds(3.5));
+                std::this_thread::sleep_for(std::chrono::seconds(3));
                 registerDns();
                 colorHandle(10);
                 std::cout << "OK\n";
                 colorHandle(7);
 
                 // end
-                colorHandle(10)
+                colorHandle(10);
                 std::cout << "\n";
                 std::cout << "========================================\n";
                 std::cout << "              COMPLETED                 \n";
