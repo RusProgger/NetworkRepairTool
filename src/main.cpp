@@ -129,13 +129,47 @@ int main() {
                 colorHandle(7);
 
                 //Cleaning temporary files...
-                std::cout << "Resetting Windows Firewall settings...";
-                std::this_thread::sleep_for(std::chrono::seconds(7));
-                resetFirewall();
+                std::cout << "Cleaning temporary files...";
+                std::this_thread::sleep_for(std::chrono::seconds(10));
+                clearTempFiles();
                 colorHandle(10);
                 std::cout << "OK\n";
                 colorHandle(7);
 
+                //showRouteTable
+                std::cout << "Clearing route table...";
+                std::this_thread::sleep_for(std::chrono::seconds(6.5));
+                showRouteTable();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                //renewIp
+                std::cout << "Renewing IP address...";
+                std::this_thread::sleep_for(std::chrono::seconds(6.5));
+                renewIp();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                //registerDns
+                std::cout << "Registering DNS...";
+                std::this_thread::sleep_for(std::chrono::seconds(3.5));
+                registerDns();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                // end
+                colorHandle(10)
+                std::cout << "\n";
+                std::cout << "========================================\n";
+                std::cout << "              COMPLETED                 \n";
+                std::cout << " All operations completed successfully. \n";
+                std::cout << " Please restart your computer to apply  \n";
+                std::cout << "           all changes.                 \n";
+                std::cout << "========================================\n\n";
+                colorHandle(7);
                 break;
             }
 
@@ -150,7 +184,6 @@ int main() {
         }
        
     }
-
 
     // std::cout << "\nProgram finished successfully.\n";
     std::cout << "Press Enter to exit...";
