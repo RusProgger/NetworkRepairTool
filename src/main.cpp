@@ -45,7 +45,9 @@ int main() {
             }
 
             if (choice == 'N' || choice == 'n') {
+                colorHandle(12);
                 std::cout << "You exited the menu.\n";
+                colorHandle(7);
                 break;
             }
 
