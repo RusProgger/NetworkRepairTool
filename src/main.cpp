@@ -82,24 +82,59 @@ int main() {
 
                 // resetNetbiosReloaded
                 std::cout << "Reloading NetBIOS names...";;
-                std::this_thread::sleep_for(std::chrono::seconds(5));
+                std::this_thread::sleep_for(std::chrono::seconds(2));
                 resetNetbiosReloaded();
                 colorHandle(10);
                 std::cout << "OK\n";
                 colorHandle(7);
 
                 //resetWinsock
-
                 std::cout << "Resetting Winsock catalog...";
-                std::this_thread::sleep_for(std::chrono::seconds(5));
+                std::this_thread::sleep_for(std::chrono::seconds(4));
                 resetWinsock();
                 colorHandle(10);
                 std::cout << "OK\n";
                 colorHandle(7);
 
                 // resetTcpIp
+                std::cout << "Resetting TCP/IP stack...";
+                std::this_thread::sleep_for(std::chrono::seconds(5));
+                resetTcpIp();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
 
-                
+                // Clearing ARP cache
+                std::cout << "Clearing ARP cache...";
+                std::this_thread::sleep_for(std::chrono::seconds(5.5));
+                clearArpCache();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                //resetIPv6
+                std::cout << "Resetting IPv6 configuration...";
+                std::this_thread::sleep_for(std::chrono::seconds(6));
+                resetIPv6();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                //resetFirewall
+                std::cout << "Resetting Windows Firewall settings...";
+                std::this_thread::sleep_for(std::chrono::seconds(7));
+                resetFirewall();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
+
+                //Cleaning temporary files...
+                std::cout << "Resetting Windows Firewall settings...";
+                std::this_thread::sleep_for(std::chrono::seconds(7));
+                resetFirewall();
+                colorHandle(10);
+                std::cout << "OK\n";
+                colorHandle(7);
 
                 break;
             }
