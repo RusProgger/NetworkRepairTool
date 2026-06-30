@@ -56,8 +56,8 @@ int main() {
 
 
     // std::cout << "\nProgram finished successfully.\n";
-    std::cout << "Press Enter to exit...\n";
-
-    std::cin.ignore();
+    std::cout << "Press Enter to exit...";
     std::cin.get();
+
+    return 0;
 }
