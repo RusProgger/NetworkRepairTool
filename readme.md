@@ -35,6 +35,14 @@ This tool simplifies the entire process into a single automated action, reducing
 
 ---
 
+## 📥 Download
+
+You can download the latest release from the Releases page:
+
+[![Download](https://img.shields.io/badge/Download%20NetworkRepairTool-ff6b6b?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/RusProgger/NetworkRepairTool/site/release/NetworkRepairTool.exe) [![Source Code](https://img.shields.io/badge/View%20Source%20Code-2a9abd?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RusProgger/NetworkRepairTool/archive/refs/heads/site.zip)
+
+---
+
 ## 🌍 Open Source & License
 
 
@@ -86,6 +94,14 @@ Network Repair Tool — это утилита для Windows, предназна
 - Уведомления о ходе выполнения
 - Автоматическая подготовка к перезагрузке системы
 - Лёгкая и быстрая работа
+
+---
+
+## 📥 Скачать
+
+Вы можете скачать последнюю версию на странице релизов:
+
+[![Download](https://img.shields.io/badge/Download%20NetworkRepairTool-ff6b6b?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/RusProgger/NetworkRepairTool/site/release/NetworkRepairTool.exe) [![Source Code](https://img.shields.io/badge/View%20Source%20Code-2a9abd?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RusProgger/NetworkRepairTool/archive/refs/heads/site.zip)
 
 ---
 
@@ -141,6 +157,14 @@ Network Repair Tool — це утиліта для Windows, призначена
 - Сповіщення про хід виконання
 - Автоматична підготовка до перезавантаження системи
 - Легка та швидка робота
+
+---
+
+## 📥 Завантажити
+
+Ви можете завантажити останню версію на сторінці релізів:
+
+[![Download](https://img.shields.io/badge/Download%20NetworkRepairTool-ff6b6b?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/RusProgger/NetworkRepairTool/site/release/NetworkRepairTool.exe) [![Source Code](https://img.shields.io/badge/View%20Source%20Code-2a9abd?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RusProgger/NetworkRepairTool/archive/refs/heads/site.zip)
 
 ---
 
