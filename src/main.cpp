@@ -180,7 +180,7 @@ int main() {
                 break;
             }
 
-            std::cout << "Invalid input! Please enter Y or N..\nContinue: ";
+            std::cout << "Invalid input! Please enter Y or N..\nContinue: (\"Y: Yes\")\"(N: Not)\"";
         }
        
     }
