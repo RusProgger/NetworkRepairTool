@@ -11,6 +11,7 @@ add_executable(NetworkRepairTool
     src/messageInfo.cpp
     src/colorHandle.cpp
     src/system.cpp
+    version.rc
 )
 
 target_include_directories(NetworkRepairTool PRIVATE ${CMAKE_SOURCE_DIR}/include)
