@@ -29,7 +29,7 @@ int main() {
         std::this_thread::sleep_for(std::chrono::seconds(1));
 
         colorHandle(12);
-        std::cout << "Warning! Resetting TCP/IP may temporarily disrupt your Internet connection.\nAre you sure you want to continue? ";
+        std::cout << "Warning! Resetting TCP/IP may temporarily disrupt your Internet connection.\nAre you sure you want to continue?\n";
         colorHandle(7);
 
         while(true) {
