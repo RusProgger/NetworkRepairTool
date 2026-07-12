@@ -1,0 +1,23 @@
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "ProductName", "NetworkRepairTool"
+            VALUE "CompanyName", "Ruslan Voronenko"
+            VALUE "LegalCopyright", "© Ruslan Voronenko"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
