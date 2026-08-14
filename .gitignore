@@ -2,5 +2,5 @@
 build/
 .vscode/
 
-!release/
-!release/*.exe
+release/
+release/*.exe
